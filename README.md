@@ -4,13 +4,12 @@
 The Family-Tree project aims to create an interactive 3D visualization of a family tree in honor of Taghiyev family. This application will allow users to view their family connections in a unique and engaging way, and to add new family members as the family grows.
 
 ## Features
-- **3D Family Tree Visualization:** Utilize Three.js to render a 3D tree where each fruit or leaf represents a family member.
-- **User Interaction:** Users can interact with the tree to view more details about each family member.
-- **Add New Members:** Interface to add new family members to the tree.
+- **3D Family Tree Visualization:** Utilizes Three.js to render a basic rotating cube, which will be the foundation for the more complex family tree visualization.
+- **User Interaction:** Users can currently view a basic 3D object; interactive family tree nodes will be added in future updates.
 
 ## Tech Stack
 - **Frontend:**
-  - **Framework:** React
+  - **Framework:** React (TypeScript)
   - **UI Framework:** Material-UI
   - **3D Rendering:** Three.js
   - **API Interaction:** Axios
@@ -30,3 +29,6 @@ The Family-Tree project aims to create an interactive 3D visualization of a fami
 ### Prerequisites
 - Node.js (Latest Stable Version)
 - npm
+
+## Usage
+`npm run dev`
