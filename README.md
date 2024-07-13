@@ -19,6 +19,13 @@ The Family-Tree project aims to create an interactive 3D visualization of a fami
   - **Prettier:** Automated code formatting.
 
 ## Installation
+#### Create React App:
+1. `npm create vite@4.1.0` (Choose TypeScript)
+
+#### Essential libraries:
+1. `npm install three`
+2. `npm install @mui/material @emotion/react @emotion/styled` (Material-UI Core) and `npm install @mui/icons-material` (Install Material-UI Icons (optional))
+3. `npm install axios`
 
 ### Prerequisites
 - Node.js (Latest Stable Version)
