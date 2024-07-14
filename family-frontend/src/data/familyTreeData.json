@@ -1,0 +1,35 @@
+[
+    {
+      "id": "1",
+      "name": "John Doe",
+      "dateOfBirth": "1950-01-22",
+      "description": "John was born in London, UK. He has been a pioneering scientist in the field of biology, making several groundbreaking discoveries about cellular processes.",
+      "parentIds": [],
+      "childrenIds": ["2", "3"]
+    },
+    {
+      "id": "2",
+      "name": "Jane Doe",
+      "dateOfBirth": "1975-05-15",
+      "description": "Jane, an accomplished novelist, was born in Manchester, UK. She has written numerous award-winning books focused on historical fiction.",
+      "parentIds": ["1"],
+      "childrenIds": []
+    },
+    {
+      "id": "3",
+      "name": "Jim Doe",
+      "dateOfBirth": "1978-08-30",
+      "description": "Jim is known for his contributions to sustainable agriculture. Born in Cambridge, UK, he has developed several techniques that increase crop yields sustainably.",
+      "parentIds": ["1"],
+      "childrenIds": ["4"]
+    },
+    {
+      "id": "4",
+      "name": "Julie Doe",
+      "dateOfBirth": "2003-11-13",
+      "description": "Julie, the youngest of her family, is a budding artist with a passion for painting landscapes. She is currently studying fine arts at university.",
+      "parentIds": ["3"],
+      "childrenIds": []
+    }
+  ]
+  
